@@ -1,0 +1,1 @@
+This project peft fine tunes a wide range of open source hugging face models to downstream tasks. Advanced RAG techniques are incorporated to allow efficient retrieval which all comes together in the form of production-grade pipelines with the help of prefect.
