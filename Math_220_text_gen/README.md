@@ -7,3 +7,10 @@ The dataset consists of two splits:
 
 1. default with 94k problems and that achieves the best performance after SFT.
 2. Extended with 131k samples where we add data sources like cn_k12.
+
+- **GPT2-SFT/**: Contains scripts, configuration files of the adapter model.  
+- **persist/**: Chromadb persisten storage.  
+- **workflows/**: Contains scripts to prepare and train.  
+- **evaluation.py**: Script to evaluate trained models on the test dataset.  
+- **rag_pipeline.py**: Rag Pipeline script.  
+- **run.py**: Main script to initiate training.  
